@@ -16,12 +16,17 @@
             //Console.WriteLine(b.copiesInStock);
             //#endregion
             //==========================================//
-            #region question3
-            Book b = new Book();
-            b.Title = "....";
-            Console.WriteLine(b.Title);
-            #endregion
+            //#region question3
+            //Book b = new Book();
+            //b.Title = "....";
+            //Console.WriteLine(b.Title);
+            //#endregion
             //=============================================//
+            #region question4
+            Book b = new Book();
+            b.book_genre = Genre.Science;
+            Console.WriteLine(b.book_genre);
+            #endregion
         }
     }
 }
