@@ -34,10 +34,16 @@
             //Console.WriteLine((int)Genre.Science);
             //#endregion
             //=================================================//
-            #region question6
-            int genreNumber = 1;
-            Genre genreString = (Genre)genreNumber;
-            Console.WriteLine(genreString);
+            //#region question6
+            //int genreNumber = 1;
+            //Genre genreString = (Genre)genreNumber;
+            //Console.WriteLine(genreString);
+            //#endregion
+            //================================================//
+            #region question7
+            Genre genre = Genre.Fiction;
+            String stringGenre = genre.ToString();
+            Console.WriteLine(stringGenre);
             #endregion
         }
     }
