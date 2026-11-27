@@ -21,9 +21,9 @@ namespace c_basics5
         //#region quesion3
         //public string Title;
         //#endregion
-        //========================================//
-        #region question4
-         public Genre book_genre;
-        #endregion
+        ////========================================//
+        //#region question4
+        //public Genre book_genre;
+        //#endregion
     }
 }

@@ -22,10 +22,16 @@
             //Console.WriteLine(b.Title);
             //#endregion
             //=============================================//
-            #region question4
-            Book b = new Book();
-            b.book_genre = Genre.Science;
-            Console.WriteLine(b.book_genre);
+            //#region question4
+            //Book b = new Book();
+            //b.book_genre = Genre.Science;
+            //Console.WriteLine(b.book_genre);
+            //#endregion
+            //=============================================//
+            #region question5
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int)Genre.Science);
             #endregion
         }
     }
