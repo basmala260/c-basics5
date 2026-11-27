@@ -4,11 +4,18 @@
     {
         static void Main(string[] args)
         {
-            #region question1
+            //#region question1
+            //Book b = new Book();
+            ////can't access private outside the class
+            //// Console.WriteLine(b.);
+            //#endregion
+         //==========================================//
+            #region question2
+            //acess within project
             Book b = new Book();
-            //can't access private outside the class
-           // Console.WriteLine(b.);
+            Console.WriteLine(b.copiesInStock);
             #endregion
+        //==========================================//
         }
     }
 }
