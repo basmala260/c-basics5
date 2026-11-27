@@ -28,10 +28,16 @@
             //Console.WriteLine(b.book_genre);
             //#endregion
             //=============================================//
-            #region question5
-            Console.WriteLine((int)Genre.Fiction);
-            Console.WriteLine((int)Genre.NonFiction);
-            Console.WriteLine((int)Genre.Science);
+            //#region question5
+            //Console.WriteLine((int)Genre.Fiction);
+            //Console.WriteLine((int)Genre.NonFiction);
+            //Console.WriteLine((int)Genre.Science);
+            //#endregion
+            //=================================================//
+            #region question6
+            int genreNumber = 1;
+            Genre genreString = (Genre)genreNumber;
+            Console.WriteLine(genreString);
             #endregion
         }
     }
