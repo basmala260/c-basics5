@@ -6,12 +6,21 @@ namespace c_basics5
 {
     internal class Book
     {
-        #region question1
-        private string password = "secret";
-        #endregion
+        //#region question1
+        //private string password = "secret";
+        //#endregion
 
-        #region question2
-        internal int copiesInStock = 5;
+     //==============================================//
+
+        //#region question2
+        //internal int copiesInStock = 5;
+        //#endregion
+
+     //==========================================//
+
+        #region quesion3
+        public string Title;
         #endregion
+     //========================================//
     }
 }

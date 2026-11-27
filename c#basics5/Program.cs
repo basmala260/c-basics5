@@ -9,13 +9,19 @@
             ////can't access private outside the class
             //// Console.WriteLine(b.);
             //#endregion
-         //==========================================//
-            #region question2
-            //acess within project
+            //==========================================//
+            //#region question2
+            ////acess within project
+            //Book b = new Book();
+            //Console.WriteLine(b.copiesInStock);
+            //#endregion
+            //==========================================//
+            #region question3
             Book b = new Book();
-            Console.WriteLine(b.copiesInStock);
+            b.Title = "....";
+            Console.WriteLine(b.Title);
             #endregion
-        //==========================================//
+            //=============================================//
         }
     }
 }
